@@ -1,0 +1,53 @@
+body {
+    background-color: #293241;
+    color: #fff;
+}
+
+/* CSS Navbar */
+nav {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-evenly;
+}
+
+nav h3 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li:hover {
+    color: #fcbf49;
+    border: 1px solid #fcbf49;
+    animation: navList 2s infinite;
+}
+
+nav ul li {
+    margin: 0 10px;
+    list-style-type: none;
+    border: 1px solid #fff;
+    padding: 8px 40px;
+    border-radius: 20px;
+}
+
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+@keyframes navList {
+    10% {
+        transform: scaleX(1.1);
+    }
+}

@@ -3,6 +3,15 @@ body {
     color: #fff;
 }
 
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: #fcbf49;
+}
+
 /* CSS Navbar */
 nav {
     display: flex;
@@ -42,8 +51,14 @@ nav ul a {
 .login {
     color: #fff;
     text-decoration: none;
-    margin-top: 7px;
     font-weight: bold;
+    margin: auto 0;
+    border-bottom: 2px solid transparent;
+    font-size: 20px;
+}
+
+.login:hover {
+    border-bottom: 2px solid #fcbf49;
 }
 
 @keyframes navList {

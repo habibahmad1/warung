@@ -14,47 +14,15 @@
 </head>
 <body>
 
-    <nav>
-        <h3><a href="">Warung <span class="text-warning">Gokil</span></a> </h3>
-        <ul class="homeNavbar">
-            <a href="#home"><li>Home</li></a>
-            <a href="#best"><li>Best Seller</li></a>
-            <a href="#menu"><li>Menu</li></a>
-            <a href="#reviews"><li>Reviews</li></a>
-        </ul>
-        <a href="" class="login">Login</a>
-    </nav>
+    @include("partials.navbar")
 
     <div class="container-main">
         @yield('content')
     </div>
 
-    <footer>
-        <h1>Warung Gokil</h1>
-        <div class="footer-navigasi">
-            <h5>Navigasi</h5>
-            <a href="">Home</a>
-            <a href="">Best Seller</a>
-            <a href="">Menu</a>
-            <a href="">Reviews</a>
-        </div>
-        <div class="footer-tools">
-            <h5>Tools</h5>
-            <a href="">Home</a>
-            <a href="">Best Seller</a>
-            <a href="">Menu</a>
-            <a href="">Reviews</a>
-        </div>
-        <div class="footer-payment">
-            <h5>Payment</h5>
-            <a href="">Home</a>
-            <a href="">Best Seller</a>
-            <a href="">Menu</a>
-            <a href="">Reviews</a>
-        </div>
-    </footer>
+    @include("partials.footer")
     
-    <div class="copyright"><p>Warung Gokil || Copyright 2024</p></div>
+    <div class="copyright"><p>Warung Gokil || Copyright <?=date("Y") ?></p></div>
 
     {{-- My JS --}}
     <script src="{{ asset('js/script.js') }}"></script>

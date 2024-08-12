@@ -105,3 +105,11 @@ footer {
     padding: 20px 0;
     color: #4c4c4d;
 }
+
+/* CSS Main Navbar */
+.container-main {
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 100px 20px 0 10px;
+    text-align: justify;
+}

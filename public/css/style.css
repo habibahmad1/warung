@@ -113,3 +113,16 @@ footer {
     padding: 100px 20px 0 10px;
     text-align: justify;
 }
+
+/* CSS Home */
+.card-home {
+    display: flex;
+    max-width: 1000px;
+    margin: 150px auto 0 auto;
+    align-items: center;
+}
+
+.hero img {
+    width: 400px;
+    margin-left: 50px;
+}

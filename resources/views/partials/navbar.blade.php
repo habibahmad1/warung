@@ -7,5 +7,5 @@
         <a href="/menu"><li>Menu</li></a>
         <a href="/reviews"><li>Reviews</li></a>
     </ul>
-    <a href="" class="login">Login</a>
+    <a href="/login" class="login">Login</a>
 </nav>

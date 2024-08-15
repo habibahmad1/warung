@@ -17,3 +17,7 @@ Route::get('menu', function () {
 Route::get('reviews', function () {
     return view('reviews');
 });
+
+Route::get('login', function () {
+    return view('login');
+});

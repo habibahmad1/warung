@@ -1,7 +1,7 @@
 @extends("partials.main")
 @section("content")
 
-<h3 class="text-center my-5">Review tentang Warung Gokil</h3>
+<h1 class="text-center my-5">Review tentang Warung <span class="text-warning">Gokil</span></h1>
     <div class="container-reviews">
         <div class="card-komentar">
               <h5>Name People</h5>

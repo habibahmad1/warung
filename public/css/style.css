@@ -195,3 +195,61 @@ footer {
     cursor: pointer;
     user-select: none;
 }
+
+/* CSS Menu Page */
+.container-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-menu {
+    display: flex;
+    width: 400px;
+    background-color: #fff;
+    color: #1a1f29;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ff7d19;
+    margin: 20px;
+}
+
+.card-menu:hover {
+    cursor: pointer;
+}
+
+.img-menu img {
+    width: 100%;
+}
+
+.img-menu {
+    border-radius: 10px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.img-menu:hover {
+    opacity: 0.9;
+    transform: scale(0.95);
+}
+
+.pesan-menu {
+    background-color: #ff7d19;
+    padding: 20px 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.pesan-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.pesan-menu:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+    background-color: #293241;
+}

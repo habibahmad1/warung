@@ -253,3 +253,57 @@ footer {
     cursor: pointer;
     background-color: #293241;
 }
+
+/* CSS Best Page*/
+.container-best {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: 70px auto;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.card-best {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    margin: 20px;
+    background-color: #ff7d19;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.img-best {
+    margin-left: 20px;
+    user-select: none;
+}
+
+.img-best img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.img-best img:hover {
+    opacity: 0.8;
+}
+
+.best-pesan {
+    background-color: #1a1f29;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.best-pesan:hover {
+    background-color: #4c4c4d;
+    cursor: pointer;
+}
+
+.desc-best h3 {
+    color: #1a1f29;
+    font-weight: bold;
+    text-transform: uppercase;
+}

@@ -1,6 +1,11 @@
 @extends('partials.main')
 @section('content')
-
+    @if (session('success'))
+    <div class="notifSuccess">
+        {{ session('success') }}
+    </div>
+    @endif
+    
     <div class="container-login">
         <h3 class="text-center mb-4">Login</h3>
         <form action="" method="POST">

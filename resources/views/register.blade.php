@@ -3,7 +3,8 @@
 
     <div class="container-login">
         <h3 class="text-center mb-4">Daftar</h3>
-        <form action="" method="POST">
+        <form action="{{ route('register.store') }}" method="POST">
+            @csrf
             <input type="text" placeholder="Fullname" name="fullname" id="fullname" required>
             <input type="text" placeholder="No WhatsApp" name="nowa" id="nowa">
             <input type="email" placeholder="Email" name="email" id="email">

@@ -149,6 +149,10 @@ footer {
     margin: 20px 0 0 0;
 }
 
+.container-login form input:focus {
+    background-color: #f5d597;
+}
+
 .container-login form button {
     padding: 10px 0;
     border-radius: 10px;
@@ -163,6 +167,21 @@ footer {
     background-color: #ff7d19;
     color: #fff;
     transition: 1s;
+}
+
+.notifSuccess {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    background-color: #f5d597;
+    color: #1a1f29;
+    font-size: 24;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 
 /* CSS Reviews */

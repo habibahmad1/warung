@@ -15,10 +15,14 @@ nav {
     background-color: #1a1f29;
     color: #fff;
     padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .sidebar-dekstop {
     width: 20%;
+    height: 100%;
     background-color: #f3eeee;
     padding: 20px 0;
     font-weight: bold;
@@ -31,7 +35,6 @@ nav {
 .sidebar-dekstop li {
     list-style-type: none;
     color: #ff7d19;
-    font-size: 22pxpx;
     margin: 0 0 10px 0;
 }
 
@@ -39,8 +42,46 @@ nav {
     color: #1a1f29;
 }
 
+.sidebar-phone {
+    display: none;
+    width: 80%;
+    height: 100%;
+    background-color: #f3eeee;
+    padding: 20px 0;
+    font-weight: bold;
+    right: 0;
+    position: absolute;
+}
+
+.sidebar-phone.visible {
+    display: block;
+}
+
+.sidebar-phone a {
+    text-decoration: none;
+}
+
+.sidebar-phone li {
+    list-style-type: none;
+    color: #ff7d19;
+    margin: 0 0 10px 0;
+    font-size: 12px;
+}
+
+/* Phone */
 @media (max-width: 600px) {
     .sidebar-dekstop {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+    .burger-navbar {
+        display: none !important;
+    }
+
+    .sidebar-phone {
         display: none;
     }
 }

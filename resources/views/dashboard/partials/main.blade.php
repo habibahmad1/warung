@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="{{ asset('css/dashboard.css') }}">
     {{-- Font Awesome --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {{-- Favicon --}}
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2012/04/28/18/16/food-43845_960_720.png">
 
 </head>
 <body>
@@ -21,28 +23,29 @@
         <div class="sidebar-dekstop">
             <ul>
                 <small>Menu</small>
-                <a href=""><li><i class="fa-solid fa-bowl-food"></i> List Menu</li></a>
-                <a href=""><li><i class="fa-solid fa-bowl-food"></i> Best Seller</li></a>
-                <a href=""><li><i class="fa-solid fa-bowl-food"></i> Discount Menu</li></a>
+                <a href=""><li><i class="fa-solid fa-burger"></i> List Menu</li></a>
+                <a href=""><li><i class="fa-solid fa-utensils"></i> Best Seller</li></a>
+                <a href=""><li><i class="fa-solid fa-seedling"></i> Discount Menu</li></a>
+                <a href=""><li><i class="fa-solid fa-ticket-simple"></i> Discount Coupon</li></a>
             </ul>
             <hr>
             <ul>
                 <small>Order</small>
-                <a href=""><li><i class="fa-solid fa-file"></i> My Order</li></a>
-                <a href=""><li><i class="fa-solid fa-file"></i> Riwayat Order</li></a>
-                <a href=""><li><i class="fa-solid fa-file"></i> My Coupon</li></a>
+                <a href=""><li><i class="fa-solid fa-file-circle-check"></i> My Order</li></a>
+                <a href=""><li><i class="fa-solid fa-file-invoice"></i> Riwayat Order</li></a>
+                <a href=""><li><i class="fa-solid fa-ticket-simple"></i> My Coupon</li></a>
             </ul>
             <hr>
             <ul>
                 <small>Help</small>
-                <a href=""><li><i class="fa-solid fa-gear"></i> Customer Service</li></a>
-                <a href=""><li><i class="fa-solid fa-file"></i> FAQ</li></a>
+                <a href=""><li><i class="fa-solid fa-headset"></i> Customer Service</li></a>
+                <a href=""><li><i class="fa-solid fa-question"></i> FAQ</li></a>
             </ul>
             <hr>
             <ul>
                 <small>Other</small>
                 <a href=""><li><i class="fa-solid fa-gear"></i> Setting</li></a>
-                <a href=""><li><i class="fa-solid fa-file"></i> Logout</li></a>
+                <a href=""><li><i class="fa-solid fa-right-from-bracket"></i> Logout</li></a>
             </ul>
         </div>
     </nav>

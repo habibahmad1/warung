@@ -25,11 +25,24 @@
                 <a href=""><li><i class="fa-solid fa-bowl-food"></i> Best Seller</li></a>
                 <a href=""><li><i class="fa-solid fa-bowl-food"></i> Discount Menu</li></a>
             </ul>
+            <hr>
             <ul>
                 <small>Order</small>
                 <a href=""><li><i class="fa-solid fa-file"></i> My Order</li></a>
                 <a href=""><li><i class="fa-solid fa-file"></i> Riwayat Order</li></a>
                 <a href=""><li><i class="fa-solid fa-file"></i> My Coupon</li></a>
+            </ul>
+            <hr>
+            <ul>
+                <small>Help</small>
+                <a href=""><li><i class="fa-solid fa-gear"></i> Customer Service</li></a>
+                <a href=""><li><i class="fa-solid fa-file"></i> FAQ</li></a>
+            </ul>
+            <hr>
+            <ul>
+                <small>Other</small>
+                <a href=""><li><i class="fa-solid fa-gear"></i> Setting</li></a>
+                <a href=""><li><i class="fa-solid fa-file"></i> Logout</li></a>
             </ul>
         </div>
     </nav>

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+*::selection {
+    background-color: #ff7d19;
+    color: #fff;
+}
+
+nav {
+    user-select: none;
+}
+
+.top-bar {
+    background-color: #1a1f29;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+.sidebar-dekstop {
+    width: 20%;
+    background-color: #d9d8d8;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.sidebar-dekstop a {
+    text-decoration: none;
+}
+
+.sidebar-dekstop li {
+    list-style-type: none;
+    color: #ff7d19;
+    font-size: 22pxpx;
+    margin: 0 0 10px 0;
+}
+
+.sidebar-dekstop li:hover {
+    color: #1a1f29;
+}
+
+@media (max-width: 600px) {
+    .sidebar-dekstop {
+        display: none;
+    }
+}

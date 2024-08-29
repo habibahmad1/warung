@@ -3,6 +3,12 @@ const sidebarPhone = document.querySelector("#sidebar-phone");
 
 if (burgerMenu) {
     burgerMenu.addEventListener("click", () => {
-        sidebarPhone.classList.toggle("visible");
+        if (sidebarPhone.style.display === "block") {
+            sidebarPhone.style.display = "none";
+        } else if (sidebarPhone.style.width === "600px") {
+            sidebarPhone.style.display = "none";
+        } else {
+            sidebarPhone.style.display = "none";
+        }
     });
 }

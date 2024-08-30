@@ -18,7 +18,7 @@
 <body>
     <nav>
         <div class="top-bar">
-            <a href="/dashboard" class="text-decoration-none text-white"><h4>Dashboard</h4></a>
+            <a href="/dashboard" class="text-decoration-none text-white"><a href="/dashboard"><h4>Dashboard</h4></a></a>
             <i class="fa-solid fa-bars burger-navbar"></i>
         </div>
         <div class="sidebar-phone" id="sidebar-phone">

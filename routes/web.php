@@ -25,5 +25,5 @@ Route::get('login', [LoginController::class, 'index']);
 Route::resource('register', RegisterController::class);
 
 Route::get('dashboard', function () {
-    return view('dashboard.partials.main');
+    return view('dashboard.menu');
 });

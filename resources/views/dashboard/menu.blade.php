@@ -1,0 +1,5 @@
+@extends('dashboard.partials.main')
+@section('my content')
+    <h1>Menu</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis iure unde consequuntur facere totam ab reprehenderit quae commodi dolores recusandae, quisquam a? Ipsam, eum perferendis vero repellat in nihil facilis et. Molestias quis quibusdam ab inventore, laborum laboriosam ea vel aut iusto officia? Accusantium corrupti recusandae laborum, laboriosam eum, ducimus pariatur optio placeat molestiae sapiente ipsam cupiditate. Doloribus nulla quidem repellat possimus eum placeat culpa ab, vero voluptate exercitationem quibusdam impedit, totam quis obcaecati necessitatibus assumenda nisi aperiam beatae maxime, perferendis hic. Reprehenderit amet mollitia, ex nemo quis qui illo temporibus repudiandae earum quam? Velit qui corporis ducimus cum nam.</p>
+@endsection

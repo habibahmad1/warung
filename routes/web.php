@@ -28,4 +28,4 @@ Route::resource('register', RegisterController::class);
 
 Route::get('dashboard', function () {
     return view('dashboard.menu');
-});
+})->middleware('auth');

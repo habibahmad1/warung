@@ -22,6 +22,8 @@ Route::get('reviews', function () {
 
 Route::get('login', [LoginController::class, 'index']);
 
+Route::post('/login', [LoginController::class, 'authenticate'])->name('index2');
+
 Route::resource('register', RegisterController::class);
 
 Route::get('dashboard', function () {

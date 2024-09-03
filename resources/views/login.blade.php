@@ -5,6 +5,11 @@
         {{ session('success') }}
     </div>
     @endif
+    @if (session('error'))
+    <div class="notifSuccess">
+        {{ session('error') }}
+    </div>
+    @endif
     
     <div class="container-login">
         <h3 class="text-center mb-4">Login</h3>

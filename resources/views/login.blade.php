@@ -15,8 +15,8 @@
         <h3 class="text-center mb-4">Login</h3>
         <form action="{{ route('index2') }}" method="POST">
             @csrf
-            <input type="email" placeholder="Email" name="email" id="email">
-            <input type="password" placeholder="Password" name="password" id="password">
+            <input type="email" placeholder="Email" name="email" id="email" required>
+            <input type="password" placeholder="Password" name="password" id="password" required>
             <button type="submit">Login</button>
             <p class="text-center">Belum punya akun?<br> <a href="/register">Daftar Sekarang</a></p>
         </form>

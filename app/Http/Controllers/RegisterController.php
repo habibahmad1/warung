@@ -24,7 +24,7 @@ class RegisterController extends Controller
             "fullname" => "required|max:255",
             "nowa" => "required|numeric",
             "email" => "required|email",
-            "password" => "required|min:5"
+            "password" => "required|min:8"
         ]);
 
         $dataRequest['password'] = bcrypt($request->password);
